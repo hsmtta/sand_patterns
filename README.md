@@ -16,7 +16,9 @@ python simulate.py -w 6.0  # Sets wind speed to 6.0
 ```bash
 python simulate.py -d  # Enables dune simulation mode, forming Barchan dunes by default
 python simulate.py -d -q 3.0  # Sets sand quantity to 3.0, forming transverse ridges
-python simulate.py -d -q 3.0 -i 5000 -g 140 -s 0  # Sets sand quantity, num iteration, grid size, and random seed
+
+# Sets sand quantity, num iteration, grid size, and random seed
+python simulate.py -d -q 3.0 -i 5000 -g 140 -s 0
 ```
 
 [![Dune pattern (sand quantity = 1.0) - YouTube](http://img.youtube.com/vi/oiSAykjHsM0/0.jpg)](http://www.youtube.com/watch?v=oiSAykjHsM0 "Dune pattern (sand quantity = 1.0) - YouTube")
